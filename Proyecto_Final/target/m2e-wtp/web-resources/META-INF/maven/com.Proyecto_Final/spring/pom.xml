@@ -115,15 +115,15 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
-		</dependency>        
+		</dependency>  
+		
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+		<dependency>
+	    	<groupId>org.springframework</groupId>
+	    	<artifactId>spring-aop</artifactId>
+	    	<version>4.3.0.RELEASE</version>
+		</dependency>      
 	</dependencies>
-	
-	<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
-	<dependency>
-    	<groupId>org.springframework</groupId>
-    	<artifactId>spring-aop</artifactId>
-    	<version>4.3.0.RELEASE</version>
-	</dependency>
 	
     <build>
         <plugins>
